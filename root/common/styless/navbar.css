@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* hover of the logo opa high */
+#logo a:hover{
+	opacity: 1;
+}
+/* opacity little*/
+#logo a{
+	opacity: 0.2;
+}
+/* specs for the logo*/
+.navbar #logo{
+	float: left;
+	width: 4em;
+	height: 4em;
+	
+
+}
+/* padding for the navbar*/
+.navbar {
+  margin: auto;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.navbar .center {
+  margin: auto;
+}
+
+.nav {
+  margin: auto;
+  width: fit-content;
+}
+/* list them centered*/
+.nav li {
+  margin-right: 1em;
+  text-align: center;
+}
+
+.link {
+  list-style-type: none;
+  float: left;
+}
+/* links colored black */
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  transition: 0.3s;
+	font-weight: bold;
+}
+/* when hovering black willl be yellow*/
+a:hover {
+  color: yellow;
+  font-size: 1.1em;
+}
+

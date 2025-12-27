@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/*ali mansour id:202110911*/
+ #footer #media{
+	float: right;
+	position: relative;
+	margin-top: 0em;
+	width: 10%;
+	
+	
+}
+#footer #media p {
+	font-weight: bold;
+	color: red;
+}
+.fa-facebook{
+	position: relative;
+	float: right;
+}
+.fa-instagram{
+	position: relative;
+	float: right;
+}
+
+.fa-twitter{
+	position: relative;
+	float: right;
+}
+ #footer #media a{
+	font-size: 2em;
+}
+#footer #copyright{
+    margin-top: 5em;
+	float: left;
+	width: 20em;
+	font-weight: bold;
+}
+

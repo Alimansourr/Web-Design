@@ -1,0 +1,322 @@
+/*ALI MANSOUR ID:202110911*/
+
+body {
+   font-family: "Orbitron";
+   font-size: 20px;
+   background-image: url("../images/aboutus/roadster.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   
+}
+
+.navbar {
+   /* position: relative; */
+   margin: auto;
+   padding: 0.5em;
+   text-align: center;
+}
+
+.navbar .center {
+   margin: auto;
+}
+
+.nav {
+   margin: auto;
+   width: fit-content;
+}
+
+.nav li {
+   margin-right: 1em;
+   text-align: center;
+}
+
+.link {
+   list-style-type: none;
+   float: left;
+}
+.navbar #logo{
+	float: left;
+	width: 4em;
+	height: 4em;
+	
+
+}
+
+/* picture will be centered*/
+ #middle #pictureaboutus{
+	text-align:center;
+	margin-top: 2em;
+
+	
+}
+/*float left and border color grey*/
+ #middle #paragraph {
+    background-color:gray;
+    padding: 0.5em;
+    box-sizing: border-box;
+	width:45%;
+	height: 25em;
+	border-radius: 0.5em;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #afcde3;
+	text-align: justify;
+	margin-bottom: 1em;
+	float: left;
+	margin-right: 2%;
+	margin-left: 3%;
+	
+}
+/*border color grey anf float right*/
+ #middle #paragraph2 {
+    background-color:gray;
+    padding: 0.5em;
+    box-sizing: border-box;
+	width: 45%;
+	height: 25em;
+	border-radius: 0.5em;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #afcde3;
+	text-align: justify;
+	margin-bottom: 1em;
+	float: right;
+    margin-left: 3%;
+	margin-right: 2%;
+	
+}
+
+/*width 90% and giving height to it*/
+ #middle img {
+    width: 90%;
+    border-radius: 1.5em;
+    height: 35em;
+    padding-bottom: 0.5em;
+    background-color: gray;  
+    padding: 0.5em;
+    box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #afcde3;
+	
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   transition: 0.3s;
+   font-size: 1em;
+	font-weight: bold;
+}
+
+a:hover {
+   font-size: 1.1em;
+   color: yellow;
+}
+.navbar #logo a{
+	opacity: 0.6;
+}
+.navbar #logo a:hover{
+	opacity: 1;
+}
+
+ #footer #media{
+	float: right;
+	position: relative;
+	width: 10%;
+	
+	
+}
+#footer #media p {
+	font-weight: bold;
+	color: red;
+}
+.fa-facebook{
+	position: relative;
+	float: right;
+}
+.fa-instagram{
+	position: relative;
+	float: right;
+}
+
+.fa-twitter{
+	position: relative;
+	float: right;
+}
+ #footer #media a{
+	font-size: 2em;
+}
+#footer	#copyright{ /*for the copy rights*/
+    margin-top: 5em;
+	float: left;
+	width: 20em;
+	font-weight: bold;
+	color: red;
+}
+
+
+@media only screen and (max-width:1200px) {
+   body {
+      font-size: 17px;
+   }
+}
+
+@media only screen and (max-width:1024px) {
+   body {
+      font-size: 15px;
+   }
+}
+
+@media only screen and (max-width:850px) {
+   body {
+      font-size: 12px;
+   }
+}
+
+@media only screen and (max-width:750px) {
+   body {
+      font-size: 10px;
+
+	}
+
+ }
+
+@media only screen and (max-width:650px) {
+   body {
+      font-size: 8px;
+   }
+	.navbar{
+		margin-bottom: 0.6em;
+	}
+	
+}
+
+@media only screen and (max-width:600px) {
+   body {
+	   font-size: 15px;}
+
+.navbar {
+   /* position: relative; */
+  	width: 100%;
+		height: auto;
+		overflow: auto;
+}
+	.nav{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.nav li {
+  width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 10px 0;
+}
+	.navbar #logo a{
+	opacity: 0.6;
+}
+.navbar #logo a:hover{
+	opacity: 1;
+}
+
+.navbar #logo{
+	float: left;
+	width: 6em;
+	height: 6em;
+	
+
+}
+	#middle #paragraph {
+    background-color:gray;
+    padding: 0.5em;
+    box-sizing: border-box;
+	width: 90%;
+	height: inherit;
+	border-radius: 0.5em;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #afcde3;
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+	
+	#middle #paragraph2 {
+    background-color:gray;
+    padding: 0.5em;
+    box-sizing: border-box;
+	width: 90%;
+	height: inherit;
+	border-radius: 0.5em;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #afcde3;
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+		
+	
+}
+	
+	
+ #middle img {
+   width: 100%;
+   border-radius: 1.5em;
+	 height: 20em;
+	 padding-bottom: 0.5em;
+	 background-color: gray;
+	    
+    padding: 0.5em;
+    box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #afcde3;
+	
+}
+
+		
+		
+	
+	 #footer #media{
+	float: right;
+	position: relative;
+	width: 20%;
+	
+	
+}
+	#media p {
+		font-size: 1em;
+	}
+.fa-facebook{
+	position: relative;
+	float: right;
+}
+.fa-instagram{
+	position: relative;
+	float: right;
+}
+
+.fa-twitter{
+	position: relative;
+	float: right;
+}
+ #footer #media a{
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
+	#footer	#copyright{
+    margin-top: 7em;
+	float: left;
+	width: 20em;
+	font-weight: bold;
+	color: red;
+}
+	
+   
+	}

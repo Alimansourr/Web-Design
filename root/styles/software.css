@@ -1,0 +1,263 @@
+/*ALI MANSOUR ID:202110911*/
+
+body {
+  background-image: url("../images/software/Homepage-Model-X-Desktop-LHD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 20px;
+  font-family: "Orbitron"; /*i included the font to download it inorder to be offline*/
+}
+
+.navbar {
+  
+  margin: auto;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.navbar .center {
+  margin: auto;
+}
+
+.nav {
+  margin: auto;
+  width: fit-content;
+}
+
+.nav li {
+  margin-right: 1em;
+  text-align: center;
+}
+
+.link {
+  list-style-type: none; /*no marker is shown*/
+  float: left;
+}
+
+ .navbar #logo a{
+	opacity: 0.6;
+}
+.navbar #logo a:hover{
+	opacity: 1;
+}
+.navbar #logo{
+	float: left;
+	width: 4em;
+	height: 4em;
+	
+
+}
+.middle{
+	background-color: gray;
+	padding: 0.5em;
+	border-radius: 1%;
+}
+
+a {
+  text-decoration: none; /*no line is drawn */
+  color: black;
+  transition: 0.3s;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 1.3em;
+  color: yellow;
+}
+
+#fixed {
+  width: 35em;
+  border-radius: 3em;
+  float: left;
+  position: fixed;
+  padding-bottom: 0.5em;
+  background-color: gray;   
+  padding: 0.5em;
+  box-sizing: border-box; /* it is for the image to make a border around it*/
+  border: 1px solid #afcde3; /*color of the border*/
+}
+
+.middle {
+  inline-size: 30em; /* the width of the text*/
+  overflow-wrap: break-word; /* this make the text to go under each other if it is too long*/
+  text-align: justify;
+  margin-left: 40em;
+}
+#footer #media{
+	float: right;
+	position: relative;
+	margin-top: 0em;
+	width: 10%;
+	
+	
+}
+#footer #media p {
+	font-weight: bold;
+	color: red;
+}
+.fa-facebook{
+	position: relative;
+	float: right;
+}
+.fa-instagram{
+	position: relative;
+	float: right;
+}
+
+.fa-twitter{
+	position: relative;
+	float: right;
+}
+ #footer #media a{
+	font-size: 2em;
+}
+#media p{
+font-size: 	1em;
+}
+
+#footer #copyright{
+    margin-top: 5em;
+	float: left;
+	width: 20em;
+	font-weight: bold;
+}
+
+@media only screen and (max-width:1200px) {
+  body {
+    font-size: 17px;
+  }
+	.middle {
+  inline-size: 24em; /* the width of the text*/
+  overflow-wrap: break-word; /* this make the text to go under each other if it is too long*/
+  text-align: justify;
+  margin-left: 37em;
+}
+}
+
+@media only screen and (max-width:1000px) {
+  body {
+    font-size: 15px;
+  }
+		.middle {
+  inline-size: 24em; /* the width of the text*/
+  overflow-wrap: break-word; /* this make the text to go under each other if it is too long*/
+  text-align: justify;
+  margin-left: 37em;
+}
+}
+
+@media only screen and (max-width:850px) {
+  body {
+    font-size: 12px;
+  }
+		.middle {
+  inline-size: 24em; /* the width of the text*/
+  overflow-wrap: break-word; /* this make the text to go under each other if it is too long*/
+  text-align: justify;
+  margin-left: 37em;
+}
+}
+
+@media only screen and (max-width:750px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  body {
+    font-size: 15px;
+  }
+	
+.navbar {
+   
+  	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+.nav{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	}
+	
+.nav li {
+    width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10px 0;
+}
+.navbar #logo a{
+	opacity: 0.6;
+}
+.navbar #logo a:hover{
+	opacity: 1;
+}
+
+.navbar #logo{
+	float: left;
+	width: 6em;
+	height: 6em;
+	
+	
+	}
+#fixed {
+  width: 100%;
+  height: 20em;
+  border-radius: 3em;
+  position:relative;
+  padding-bottom: 0.5em;
+  background-color: gray;   
+  padding: 0.5em;
+  box-sizing: border-box;
+  border: 1px solid #afcde3;
+}
+.middle {
+  float: left;
+  overflow-wrap: break-word;
+  text-align: justify;
+  margin-left: 1em;
+  margin-top: 1em;
+  width: 95%;
+}
+		
+#footer #media{
+	float: right;
+	position: relative;
+	width: 20%;
+	
+	
+}
+#media p {
+	font-size: 1em;
+	}
+.fa-facebook{
+	position: relative;
+	float: right;
+}
+.fa-instagram{
+	position: relative;
+	float: right;
+}
+
+.fa-twitter{
+	position: relative;
+	float: right;
+}
+ #footer #media a{
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
+#footer #copyright{
+    margin-top: 7em;
+	float: left;
+	width: 20em;
+	font-weight: bold;
+}
+	
+	
+}

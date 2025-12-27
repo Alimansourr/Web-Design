@@ -1,0 +1,315 @@
+/*ALI MANSOUR ID:202110911*/
+
+body {
+  font-family: "Orbitron";
+  background-image: url("../images/media/Model-Y-Main-Hero-Desktop-Global.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 20px;
+}
+
+.navbar #logo{
+	float: left;
+	width: 4em;
+	height: 4em;
+	
+
+}
+.navbar #logo a{
+	opacity: 0.6;
+}
+.navbar #logo a:hover{
+	opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+a:hover {
+  color: yellow;
+  font-size: 1.3em;
+}
+
+.navbar {
+  /* position: relative; */
+  margin: auto;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.navbar .center {
+  margin: auto;
+}
+
+.nav {
+  margin: auto;
+  width: fit-content;
+}
+
+.nav li {
+  margin-right: 1em;
+  text-align: center;
+}
+
+.link {
+  list-style-type: none;
+  float: left;
+}
+/* includes the pic and vid to center them and give the width i need*/
+#middle {
+	
+	display: block;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+/* specs for the pics i gave them border to be clearer since i put a background image not a color*/
+#middle .teslaTypes{
+    width: 55em;
+	height: 36em;
+    border-radius: 1.5em;
+    padding-bottom: 0.5em;
+    background-color: gray;   
+    padding: 0.5em;
+	position: relative;
+    box-sizing: border-box;
+	border: 1px solid #afcde3;
+	
+}
+/* for the background color inorder to be cleare while viewing it*/
+#middle #title1 {
+	background-color: gray;
+	position: relative;
+	padding: 0.25em;
+	border-radius: 2%;
+}
+#middle #title2 {
+	background-color: gray;
+	position: relative;
+	padding: 0.25em;
+	border-radius: 2%;
+}
+/*specs for the videos i used*/
+#middle .vid{
+    width: 20em;
+	height: 20em;
+    border-radius: 1.5em;
+    padding-bottom: 0.5em;
+    background-color: gray;   
+    padding: 0.5em;
+    box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #afcde3;
+	
+	
+}
+#middle #youtube{
+	text-align: center;
+}
+/* font size for the p only*/
+p {
+  font-size: 2.5em;
+}
+/* specs for the pics*/
+.teslaTypes{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* specs for the vid*/
+.vid {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
+  height: 5em;
+}
+/*color for the audio */
+#audiocar{
+	background-color: gray;
+	padding: 0.25em;
+	border-radius: 2%;
+	text-align: center;
+	
+}
+#audiocar h1{text-align: center;}
+#audiocar h2{text-align: center;}
+
+/*pdf heigh and width*/
+#pdf #pdff {
+	height: 3em;
+	width: 3em;
+	
+}
+#pdf {
+	background-color: gray;
+	padding: 0.25em;
+	border-radius: 2%;
+	text-align: center;
+}
+#pdf h1{text-align: center;}
+#copyright{
+    margin-top: 5em;
+	float: left;
+	width: 20em;
+	font-weight: bold;
+}
+/*specs for the footer*/
+ #footer #media{
+	float: right;
+	position: relative;
+	width: 10%;
+	
+	
+}
+#footer #media p {
+	font-weight: bold;
+	color: red;
+}
+.fa-facebook{
+	position: relative;
+	float: right;
+}
+.fa-instagram{
+	position: relative;
+	float: right;
+}
+
+.fa-twitter{
+	position: relative;
+	float: right;
+}
+ #footer #media a{
+	font-size: 2em;
+}
+#media p{
+font-size: 	1em;
+}
+
+
+ 
+
+@media only screen and (max-width:1200px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:750px) {
+  body {
+    font-size: 10px;
+  }
+  .vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    height: 5em;
+}
+}
+
+@media only screen and (max-width:600px) {
+body {
+    font-size: 15px;
+  }
+.navbar #logo a{
+	opacity: 0.6;
+}
+.navbar #logo a:hover{
+	opacity: 1;
+}
+.navbar #logo{
+	float: left;
+	width: 6em;
+	height: 6em;
+}
+#middle .teslaTypes{
+    width: 100%;
+	height: 15em;
+    border-radius: 1.5em;
+    padding-bottom: 0.5em;
+    background-color: gray;   
+    padding: 0.5em;
+	position: relative;
+    box-sizing: border-box;
+	border: 1px solid #afcde3;
+	
+}
+.vid {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+		
+.navbar {
+   /* position: relative; */
+  	width: 100%;
+		height: auto;
+		overflow: auto; /*better control for the layout*/
+}
+.nav{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	
+.nav li {
+        width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 10px 0;
+}
+#copyright{
+    margin-top: 7em;
+	float: left;
+	width: 20em;
+	font-weight: bold;
+}
+ #footer #media{
+	float: right;
+	position: relative;
+	width: 20%;
+	
+	
+}
+	#media p {
+		font-size: 1em;
+	}
+.fa-facebook{
+	position: relative;
+	float: right;
+}
+.fa-instagram{
+	position: relative;
+	float: right;
+}
+
+.fa-twitter{
+	position: relative;
+	float: right;
+}
+ #footer #media a{
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+}
